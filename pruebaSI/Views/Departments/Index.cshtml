@@ -1,0 +1,49 @@
+﻿@model IEnumerable<pruebaSI.Models.Department>  
+   
+@{     ViewData["Title"] = "Departamentos";
+}
+
+<h1>Lista de bandas</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Nuevo</a>
+</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentName)
+                </th>
+                <th>
+
+                </th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>@Html.DisplayFor(modelItem => item.DepartmentName)</td>
+                    <td>
+                        <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.DepartmentId">Editar</a>
+                        <a asp-action="Details" class="btn btn-success" asp-route-id="@item.DepartmentId">Detalles</a>
+                        <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.DepartmentId">Borrar</a>
+
+                    </td>
+
+                </tr>
+                
+            }
+
+        </tbody>
+
+    </table>
+
+    
+
+

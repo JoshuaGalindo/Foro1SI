@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{BBD00968-2602-4CB7-8BF0-C943CF8C22EA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pruebaSI/Views/Departments/Details.cshtml">
+    <Files>
+      <File FileName="pruebaSI/Views/Departments/Create.cshtml" Line="32" Column="18" />
+      <File FileName="pruebaSI/Controllers/DepartmentsController.cs" Line="122" Column="41" />
+      <File FileName="pruebaSI/Views/Departments/Index.cshtml" Line="20" Column="22" />
+      <File FileName="pruebaSI/Views/Departments/Details.cshtml" Line="22" Column="1" />
+      <File FileName="pruebaSI/Startup.cs" Line="1" Column="1" />
+      <File FileName="pruebaSI/appsettings.json" Line="14" Column="1" />
+      <File FileName="pruebaSI/Migrations/20210617235441_CreacionInicial.cs" Line="1" Column="1" />
+      <File FileName="pruebaSI/Models/Department.cs" Line="16" Column="13" />
+      <File FileName="pruebaSI/Data/ApplicationDbContext.cs" Line="17" Column="59" />
+      <File FileName="pruebaSI/Views/Departments/Edit.cshtml" Line="15" Column="59" />
+      <File FileName="pruebaSI/Views/Departments/Delete.cshtml" Line="15" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pruebaSI" expanded="True">
+            <Node name="pruebaSI" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Departments" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.pruebaSI PreferredExecutionTarget="/Users/Joshi/Documents/escritorio/Firefox.app" />
+</Properties>
